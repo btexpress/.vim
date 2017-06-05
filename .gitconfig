@@ -1,0 +1,37 @@
+[user]
+    email = btooles@gmail.com
+    name = Bill Tooles
+[core]
+	editor = vim
+[alias]
+    histall = log --all --graph --oneline --decorate --date-order
+	hist10all = log -n10 --all --graph --oneline --decorate --date-order
+    hist = log --graph --oneline --decorate --date-order
+	hist10 = log -n10 --graph --oneline --decorate --date-order
+	g = grep --break --heading --line-number
+[merge]
+    keepBackup = false;
+    tool = p4merge
+[mergetool]
+    prompt = false
+[mergetool "p4merge"]
+    cmd = p4merge "$BASE" "$LOCAL" "$REMOTE" "$MERGED"
+    keepTemporaries = false
+    trustExitCode = false
+    keepBackup = false
+[diff]
+    tool = p4merge
+[difftool]
+    prompt = false
+[difftool "p4merge"]
+    cmd = p4merge "$LOCAL" "$REMOTE"
+    keepTemporaries = false
+    trustExitCode = false
+    keepBackup = false
+[push]
+	default = matching
+[credential]
+	helper = cache --timeout=28800
+[grep]
+	extendRegexp = true
+	lineNumber = true
