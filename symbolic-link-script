@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 DATE=`date "+%Y-%m-%d-%H.%M.%S"`
-if [ -e ~/.gitconfig ]; then
+if [ -f ~/.gitconfig ]; then
     cp ~/.gitconfig ~/.gitconfig.$DATE
     rm -f ~/.gitconfig
 fi
-if [ -e ~/.vimrc ]; then
+if [ -f ~/.vimrc ]; then
     cp ~/.vimrc ~/.vimrc.$DATE
     rm -f ~/.vimrc
 fi
