@@ -46,6 +46,9 @@ set tabstop=4 shiftwidth=4 smarttab expandtab softtabstop=4
 set autoindent number cursorline showmatch
 " Recommended general settings END
 
+" Disable Vim's newfangled concealing
+let g:vim_json_syntax_conceal = 0
+
 " To ignore plugin indent changes, instead use:
 "filetype plugin on
 "
