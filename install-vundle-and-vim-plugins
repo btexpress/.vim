@@ -2,3 +2,4 @@
 rm -rf  ~/.vim/bundle/*
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 vim +PluginInstall +qall
+sed -i -e 's/\"setlocal foldmethod=syntax/setlocal foldmethod=syntax/' ~/.vim/bundle/vim-json/ftplugin/json.vim
