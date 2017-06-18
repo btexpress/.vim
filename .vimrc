@@ -23,6 +23,7 @@ Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'rodjek/vim-puppet'
 Plugin 'tpope/vim-sensible'
 Plugin 'MicahElliott/Rocannon'
+Plugin 'elzr/vim-json'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
