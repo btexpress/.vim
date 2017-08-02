@@ -25,7 +25,8 @@ Plugin 'tpope/vim-sensible'
 Plugin 'MicahElliott/Rocannon'
 Plugin 'elzr/vim-json'
 Plugin 'Yggdroot/indentLine'
-Plugin 'suan/vim-instant-markdown'
+" Plugin 'suan/vim-instant-markdown'
+" Having trouble getting the above plugin to work: 'suan/vim-instant-markdown'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
