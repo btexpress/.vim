@@ -19,6 +19,7 @@ Plugin 'python-mode/python-mode'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'godlygeek/tabular'
 Plugin 'chase/vim-ansible-yaml'
+Plugin 'mrk21/yaml-vim'
 Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'rodjek/vim-puppet'
 Plugin 'tpope/vim-sensible'
@@ -123,4 +124,9 @@ nnoremap <F2> :tabonly<CR>
 " ===========================================================
 " Set foldcolunm setting   ===================================
 :set foldcolumn=5
+" ===========================================================
+" ===========================================================
+" add yaml stuffs
+au! BufNewFile,BufReadPost *.{yaml,yml} set filetype=yaml foldmethod=indent
+autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
 " ===========================================================
