@@ -5,7 +5,8 @@
 ```
 cd ~			# cd into your home directory
 rm -rf .vim
-git clone git@github.com:btexpress/.vim.git
+git clone git@github.com:btexpress/.vim.git 
+			(or git clone https://github.com/btexpress/.vim.git)
 sh .vim/symbolic-link-script
 sh .vim/install-vundle-and-vim-plugins
 ```
