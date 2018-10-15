@@ -10,3 +10,5 @@ sh .vim/symbolic-link-script
 sh .vim/install-vundle-and-vim-plugins
 ```
 
+Use 'https://github.com/btexpress/.vim.git' instead of 'git@github.com:btexpress/.vim.git' for "git clone" argument if you do NOT have ssh keys set up in github.com
+
