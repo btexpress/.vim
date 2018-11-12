@@ -26,6 +26,7 @@ Plugin 'tpope/vim-sensible'
 Plugin 'MicahElliott/Rocannon'
 Plugin 'elzr/vim-json'
 Plugin 'Yggdroot/indentLine'
+Plugin 'Valloric/YouCompleteMe'
 " Plugin 'suan/vim-instant-markdown'
 " Having trouble getting the above plugin to work: 'suan/vim-instant-markdown'
 
