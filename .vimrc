@@ -136,5 +136,5 @@ autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
 command! WipeReg for i in range(34,122) | silent! call setreg(nr2char(i), []) | endfor
 " and clear every register with :WipeReg
 " If you would like that to happen every time you start Vim also add:
-autocmd VimEnter * WipeReg
+" autocmd VimEnter * WipeReg
 " ===========================================================
