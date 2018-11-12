@@ -26,9 +26,10 @@ Plugin 'tpope/vim-sensible'
 Plugin 'MicahElliott/Rocannon'
 Plugin 'elzr/vim-json'
 Plugin 'Yggdroot/indentLine'
-Plugin 'Valloric/YouCompleteMe'
+" Plugin 'Valloric/YouCompleteMe'
+" Having trouble getting the above plugin to work correctly: 'Valloric/YouCompleteMe'
 " Plugin 'suan/vim-instant-markdown'
-" Having trouble getting the above plugin to work: 'suan/vim-instant-markdown'
+" Having trouble getting the above plugin to work correctly: 'suan/vim-instant-markdown'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
