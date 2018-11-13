@@ -15,19 +15,19 @@ Use 'https://github.com/btexpress/.vim.git' instead of 'git@github.com:btexpress
 
 Here are links to all the plugins installed in this .vimrc:
 
-[Vundle, the plug-in manager for Vim](https://github.com/VundleVim/Vundle.vim).  
-[The NERDTree - A tree explorer plugin for vim](https://github.com/scrooloose/nerdtree).  
-[Vim python-mode. PyLint, Rope, Pydoc, breakpoints from box](https://github.com/python-mode/python-mode).  
-[syntastic - Syntax checking hacks for vim](https://github.com/vim-syntastic/syntastic).  
-[Tabular - Vim script for text filtering and alignment](https://github.com/godlygeek/tabular).  
-[vim-ansible-yaml - Add additional support for Ansible in VIM](https://github.com/chase/vim-ansible-yaml).  
-[yaml-vim - YAML syntax/indent plugin for Vim](https://github.com/mrk21/yaml-vim).  
-[NERDTree and tabs together in Vim, painlessly](https://github.com/jistr/vim-nerdtree-tabs).  
-[vim-puppet - Puppet niceties for your Vim setup](https://github.com/rodjek/vim-puppet).  
-[sensible.vim - a universal set of defaults](https://github.com/tpope/vim-sensible).  
-[Rocannon - Vim for Ansible playbooks](https://github.com/MicahElliott/Rocannon).  
-[vim-json - A better JSON for Vim](https://github.com/elzr/vim-json).  
-[indentLine - A vim plugin to display the indention levels with thin vertical lines](https://github.com/Yggdroot/indentLine).  
+1.	[Vundle, the plug-in manager for Vim](https://github.com/VundleVim/Vundle.vim).  
+1.	[The NERDTree - A tree explorer plugin for vim](https://github.com/scrooloose/nerdtree).  
+1.	[Vim python-mode. PyLint, Rope, Pydoc, breakpoints from box](https://github.com/python-mode/python-mode).  
+1.	[syntastic - Syntax checking hacks for vim](https://github.com/vim-syntastic/syntastic).  
+1.	[Tabular - Vim script for text filtering and alignment](https://github.com/godlygeek/tabular).  
+1.	[vim-ansible-yaml - Add additional support for Ansible in VIM](https://github.com/chase/vim-ansible-yaml).  
+1.	[yaml-vim - YAML syntax/indent plugin for Vim](https://github.com/mrk21/yaml-vim).  
+1.	[NERDTree and tabs together in Vim, painlessly](https://github.com/jistr/vim-nerdtree-tabs).  
+1.	[vim-puppet - Puppet niceties for your Vim setup](https://github.com/rodjek/vim-puppet).  
+1.	[sensible.vim - a universal set of defaults](https://github.com/tpope/vim-sensible).  
+1.	[Rocannon - Vim for Ansible playbooks](https://github.com/MicahElliott/Rocannon).  
+1.	[vim-json - A better JSON for Vim](https://github.com/elzr/vim-json).  
+1.	[indentLine - A vim plugin to display the indention levels with thin vertical lines](https://github.com/Yggdroot/indentLine).  
 
 
 #### Disregard all text below.  'YouCompleteMe' plugin has been temporarily disabled.
