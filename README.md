@@ -16,7 +16,7 @@ sh .vim/install-vundle-and-vim-plugins
 Two important points:  
 1.  Use 'https://github.com/btexpress/.vim.git' instead of 'git@github.com:btexpress/.vim.git' for "git clone" argument if you do NOT have ssh keys set up in github.com
 
-1.  You CANNOT cut and paste the '^M' characters in the 'sed' lines.  You have to type it in manually.  To enter '^M', type CTRL-V, then CTRL-M. That is, hold down the CTRL key then press V and M in succession.
+1.  You CANNOT cut and paste the '^M' characters in the 'sed' lines.  You have to type them in manually.  To enter '^M', type CTRL-V, then CTRL-M. That is, hold down the CTRL key then press V and M in succession.
 
 Here are links to all the plugins installed in this .vimrc:
 
