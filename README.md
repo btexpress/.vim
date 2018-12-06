@@ -7,16 +7,15 @@ cd ~			# cd into your home directory
 rm -rf .vim
 git clone git@github.com:btexpress/.vim.git 
 			(or git clone https://github.com/btexpress/.vim.git)
-sed -i 's/^M//' .vim/symbolic-link-script           (for MS Windows users using cygwin)
-sed -i 's/^M//' .vim/install-vundle-and-vim-plugins (for MS Windows users using cygwin)
 sh .vim/symbolic-link-script
 sh .vim/install-vundle-and-vim-plugins
 ```
 
-Two important points:  
+Important points
+:  
 1.  Use 'https://github.com/btexpress/.vim.git' instead of 'git@github.com:btexpress/.vim.git' for "git clone" argument if you do NOT have ssh keys set up in github.com
+1.  Windows users: Make sure 'cygwin' is installed and "cygwin's" version of 'git' is installed
 
-1.  You CANNOT cut and paste the '^M' characters in the 'sed' lines.  You have to type them in manually.  To enter '^M', type CTRL-V, then CTRL-M. That is, hold down the CTRL key then press V and M in succession.
 
 Here are links to all the plugins installed in this .vimrc:
 
