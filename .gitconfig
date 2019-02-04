@@ -33,5 +33,5 @@
 [credential]
 	helper = cache --timeout=28800
 [grep]
-	extendRegexp = true
+	extendedRegexp = true
 	lineNumber = true
